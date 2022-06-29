@@ -1,0 +1,11 @@
+.grid-item {
+    background-color: gray;
+    border-radius: 2px ;
+}
+
+#container{
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 5px;
+}
