@@ -4,8 +4,14 @@
 }
 
 #container{
+    height: 95vh;
+    width: 100%;
     display: grid;
     grid-template-rows: repeat(16, 1fr);
     grid-template-columns: repeat(16, 1fr);
     grid-gap: 5px;
+}
+
+.hovering {
+    background-color: black;
 }
